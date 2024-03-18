@@ -14,32 +14,36 @@
 
   <link href="site.webmanifest" rel="manifest">
   <link href="icon.png" rel="apple-touch-icon">
-  <!-- Place favicon.ico in the root directory -->
 
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/portfolio.css" rel="stylesheet">
 
   <meta content="#fafafa" name="theme-color">
 </head>
 
 <body>
+  <header>
+    <h1>Hello, my name is Ariel.</h1>
+    <img
+      src="https://media.licdn.com/dms/image/C4D03AQFljiwgLzPHmw/profile-displayphoto-shrink_800_800/0/1663806345939?e=1716422400&v=beta&t=YHBL4PxCG95rLrtiddoEE1G0fjOVmP5tPscksSsys6I"
+      alt="">
+  </header>
 
-<!-- Add your site or application content here -->
-<!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
-<table>
-  <tr>
-    <td>
-      <h1>Hello, my name is Ariel.</h1>
-      <h3>About Me:</h3>
-      <div>
+  <main>
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p>
         I am an IT professional with experience in software development and analysis. I am always looking for
         challenges, and I have been working in this field since 2019.
         <br>
         I have experience in programming languages and my professional goal is to keep up with technological advances to
         make the world more digital and simple to live in.
-      </div>
-      <br>
-      <h3>Skills:</h3>
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
       <ul>
         <li>Java Developer</li>
         <li>Spring Boot</li>
@@ -51,76 +55,99 @@
         <li>Git</li>
         <li>Docker</li>
       </ul>
-      <h2>Experience:</h2>
-      <h3>iFractal® Tecnologia Para Ser Humano</h3>
+      <br>
+    </section>
+
+    <section class="experience">
+      <h2>
+        Experience <br>
+        iFractal® Tecnologia Para Ser Humano
+      </h2>
+
+      <article class="job">
+        <h4 class="job-title">Back End Java Developer (March 2022 - Present)</h4>
+        <ul>
+          <dd>
+            <li>Developed the communication module that integrates the iFractal system with time clocks.</li>
+          </dd>
+          <dd>
+            <li>Integrated with major time clock brands: Controlid, Dimep, Zkteco, Henry, Madis, Rodbel, Topdata,
+              Proveu,
+              and Dahua.
+            </li>
+          </dd>
+          <dd>
+            <li>Implemented integrations using APIs and DLLs.</li>
+          </dd>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h4 class="job-title">Support Analyst (May 2019 - March 2022)</h4>
+        <ul>
+          <dt>
+            <li>Provided support for the company's main system tools:</li>
+          </dt>
+          <dd>
+            <li><strong>ifPonto: </strong> a system for electronic time management that automates and optimizes time for
+              HR managers, providing reports and graphs to better monitor the daily activities of employees.
+            </li>
+          </dd>
+          <dd>
+            <li><strong>ifClick: </strong> a system for sending messages and documents via SMS and email, with reports
+              for
+              better monitoring of your mailing list.
+            </li>
+          </dd>
+          <dd>
+            <li><strong>ifAcesso: </strong> a system for real-time control of people's access.</li>
+          </dd>
+        </ul>
+      </article>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
       <ul>
-        <li><strong>Back End Java Developer</strong> (March 2022 - Present)</li>
-        <dd>
-          <li>Developed the communication module that integrates the iFractal system with time clocks.</li>
-        </dd>
-        <dd>
-          <li>Integrated with major time clock brands: Controlid, Dimep, Zkteco, Henry, Madis, Rodbel, Topdata, Proveu,
-            and Dahua.
-          </li>
-        </dd>
-        <dd>
-          <li>Implemented integrations using APIs and DLLs.</li>
-        </dd>
-        <br>
-        <li><strong>Support Analyst</strong> (May 2019 - March 2022)</li>
-        <dt>
-          <li>Provided support for the company's main system tools:</li>
-        </dt>
-        <dd>
-          <li><strong>ifPonto: </strong> a system for electronic time management that automates and optimizes time for
-            HR managers, providing reports and graphs to better monitor the daily activities of employees.
-          </li>
-        </dd>
-        <dd>
-          <li><strong>ifClick: </strong> a system for sending messages and documents via SMS and email, with reports for
-            better monitoring of your mailing list.
-          </li>
-        </dd>
-        <dd>
-          <li><strong>ifAcesso: </strong> a system for real-time control of people's access.</li>
-        </dd>
+        <li>Bachelor's Degree in Computer Science (2022 - 2024)</li>
       </ul>
-      <h3>Education</h3>
-      <ul>
-        <li>Bachelor's Degree in Computer Science (2015 - 2019)</li>
-      </ul>
-      <h3>Contact</h3>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
       <ul>
         <li>Email: <a href="mailto:ariel99gf@gmail.com">ariel99gf@gmail.com</a></li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/ariel99gf/">Ariel Gomes Fonseca</a>
         <li>GitHub: <a href="https://github.com/ariel99gf">Ariel Fonseca</a></li>
       </ul>
-      <h3>Additional Information</h3>
+    </section>
+
+    <section class="additional-info">
+      <h2>Additional Information</h2>
       <ul>
         <li>I am proficient in English and Portuguese.</li>
-        <li>I am a highly motivated and results-oriented individual.</li>
-        <li>I am a team player and I am always willing to learn new things.</li>
+        <li>highly motivated and results-oriented individual.</li>
+        <li>team player and I am always willing to learn new things.</li>
       </ul>
-    </td>
-  </tr>
-</table>
-<script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+    </section>
+  </main>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () {
-    ga.q.push(arguments)
-  };
-  ga.q = [];
-  ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto');
-  ga('set', 'anonymizeIp', true);
-  ga('set', 'transport', 'beacon');
-  ga('send', 'pageview')
-</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 
 </html>

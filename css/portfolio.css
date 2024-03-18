@@ -1,0 +1,153 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header */
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Main */
+
+main {
+  padding: 2rem;
+}
+
+/* Seções */
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Seção Sobre Mim */
+
+.about-me p {
+  margin-bottom: 1rem;
+}
+
+/* Seção Habilidades */
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills ul li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+/* Seção Experiência */
+
+.experience {
+  border-top: 1px solid #ddd;
+}
+
+.job {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.job h3 {
+  margin-top: 0;
+}
+
+.job-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Seção Educação */
+
+.education ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Seção Contato */
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Seção Informações Adicionais */
+
+.additional-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.additional-info ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mídia */
+
+img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #ccc;
+  object-fit: cover;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  /* Adaptações para telas menores */
+}
+
